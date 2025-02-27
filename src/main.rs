@@ -20,8 +20,8 @@ use borsh::{BorshDeserialize, BorshSerialize};
 use std::time::Duration;
 
 const RAYDIUM_V4_PROGRAM_ID: &str = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
-const RPC_URL: &str = "https://mainnet.helius-rpc.com/?api-key=177e861e-680b-4c8f-9e7c-a41c87c43968";
-const WS_URL: &str = "wss://mainnet.helius-rpc.com/?api-key=177e861e-680b-4c8f-9e7c-a41c87c43968";
+const RPC_URL: &str = "https://mainnet.helius-rpc.com/?your_api";
+const WS_URL: &str = "wss://mainnet.helius-rpc.com/?ypur_api";
 const TOKEN_METADATA_PROGRAM_ID: &str = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s";
 const MAX_RETRIES: u32 = 3;
 const RETRY_DELAY: Duration = Duration::from_secs(2);
